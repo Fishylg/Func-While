@@ -1,10 +1,10 @@
-function soma_ate_100(contador, soma){
-    contador = 1 
-    soma = 0 
+function soma_ate_100(i, soma){
+    i = 1
+    soma = 0
     
     while (contador <= 100){
-          soma += contador
-     contador++
+          soma += i
+     i++
     }
     return soma
     }
